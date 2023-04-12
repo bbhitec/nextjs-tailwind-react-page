@@ -31,7 +31,7 @@ export default function Home() {
         {/* Hero home screen section */}
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between dark:text-white'>
-            <h1 className='font-burtons text-xl'>AWESOMETITLE</h1>
+            <h1 className='font-epilogue text-xl'>John's Place</h1>
             <ul className='flex items-center'>
               {/* Use the button as a toggle for the dark mode (reverse the current state) */}
               <li>
@@ -72,9 +72,9 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-2 dark:text-white'>Services I Offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              Since the beginning of my journey as a freelance designer and developer, I&apos;ve done remote work for
-              <span className='text-purple-500'> agencies </span> consulted for <span className='text-purple-500'>startups </span>
-              and collaborated with talanted people to create digital products for both business and consumer use.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              <span className='text-purple-500'> dolore </span> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in <span className='text-purple-500'> reprehenderit </span> in voluptate velit esse cillum dolore...
             </p>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               I offer from a wide range of services, including brand design, programming and teaching.
@@ -84,7 +84,7 @@ export default function Home() {
           {/* Services Cards */}
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <Image src={design} width={100} height={100} className='mx-auto' />
+              <Image src={design} width={100} height={100} className='mx-auto' alt='Design' />
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
                 Creating elegant designs suited for your needs following core design theory.
@@ -97,7 +97,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <Image src={code} width={100} height={100} className='mx-auto' />
+              <Image src={code} width={100} height={100} className='mx-auto' alt='Code'/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Code your dream project</h3>
               <p className='py-2'>
                 Do you have an idea for your next great website? Let&apos;s make it a reality.
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <Image src={consulting} width={100} height={100} className='mx-auto' />
+              <Image src={consulting} width={100} height={100} className='mx-auto' alt='Consulting'/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Consulting</h3>
               <p className='py-2'>
                 Are you interested in feedback for your current project? I can give you tips and tricks to level it up.
@@ -128,34 +128,33 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1 dark:text-white '>Portofolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              Since the beginning of my journey as a freelance designer and developer, I&apos;ve done remote work for
-              <span className='text-purple-500'> agencies </span> consulted for <span className='text-purple-500'>startups </span>
-              and collaborated with talanted people to create digital products for both business and consumer use.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <span className='text-purple-500'> dolore </span> eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
             </p>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              I offer from a wide range of services, including brand design, programming and teaching.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...
             </p>
           </div>
 
           {/* Portfolio images section: large screens will have two images per wrapped row */}
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image responsive className='rounded-xl object-cover'  width={'100%'} height={'100%'} src={web1}/>
+              <Image responsive className='rounded-xl object-cover'  width={'100%'} height={'100%'} src={web1} alt='Project Preview'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image responsive className='rounded-xl object-cover' width={'100%'} height={'100%'} src={web2}/>
+              <Image responsive className='rounded-xl object-cover' width={'100%'} height={'100%'} src={web2} alt='Project Preview'/>
             </div>
             <div className='basis-1/2 flex-1'>
-              <Image responsive className='rounded-xl object-cover' style={{ objectFit: "cover" }} width={"100%"} height={"100%"} src={web3}/>
+              <Image responsive className='rounded-xl object-cover' style={{ objectFit: "cover" }} width={"100%"} height={"100%"} src={web3} alt='Project Preview'/>
             </div>
             <div className='basis-1/2 flex-1'>
-              <Image responsive className='rounded-xl object-cover' width={'100%'} height={'100%'} src={web4}/>
+              <Image responsive className='rounded-xl object-cover' width={'100%'} height={'100%'} src={web4} alt='Project Preview'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image responsive className='rounded-xl object-cover' width={'100%'} height={'100%'} src={web5}/>
+              <Image responsive className='rounded-xl object-cover' width={'100%'} height={'100%'} src={web5} alt='Project Preview'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image responsive className='rounded-xl object-cover' width={'100%'} height={'100%'} src={web6}/>
+              <Image responsive className='rounded-xl object-cover' width={'100%'} height={'100%'} src={web6} alt='Project Preview'/>
             </div>
 
           </div>

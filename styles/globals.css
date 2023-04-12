@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -81,7 +81,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
+} */
 
 html,
 body {
@@ -111,6 +111,6 @@ a {
 }
 
 @font-face {
-  font-family: "burtons";
-  src: url("../public/Burtons.otf");
+  font-family: "epilogue";
+  src: url("../public/Epilogue-Regular.ttf");
 }

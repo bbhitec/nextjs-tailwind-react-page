@@ -17,7 +17,7 @@ module.exports = {
     extend: {
       // custom font
       fontFamily: {
-        burtons: "burtons",
+        epilogue: "epilogue",
       },
     },
   },
