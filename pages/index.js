@@ -31,7 +31,7 @@ export default function Home() {
         {/* Hero home screen section */}
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between dark:text-white'>
-            <h1 className='font-epilogue text-xl'>John's Place</h1>
+            <h1 className='font-epilogue text-xl'>John&apos;s Place</h1>
             <ul className='flex items-center'>
               {/* Use the button as a toggle for the dark mode (reverse the current state) */}
               <li>
