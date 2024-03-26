@@ -2,7 +2,7 @@ import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
 import Image from "next/image";
-import deved from "../public/dev-table.png";
+import deved from "../public/dev-table.webp";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
@@ -45,10 +45,10 @@ export default function Home() {
             </ul>
           </nav>
 
-          {/* Have a round gradient bg for the image. used objectFit as a style prop in next.js 13*/}
-          <div className='relative mx-auto bg-gradient-to-b from-purple-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:w-96 md:h-96'>
+          {/* Have a round gradient bg for the image. used objectFit as a style prop in next.js 13   overflow-hidden */}
+          <div className='relative mx-auto bg-gradient-to-b from-purple-500 rounded-full w-80 h-80 mt-20 md:w-96 md:h-96'>
             {/* Using path as an imported variable in a next.js specific image */}
-            <Image src={deved} alt='Hero Image' fill style={{ objectFit: "cover" }} quality={70} />
+            <Image src={deved} alt='Hero Image' fill style={{ objectFit: "contain" }} quality={70} />
           </div>
 
           <div className='text-center p-10'>
